@@ -1,0 +1,50 @@
+/* dekorasjoner top høyre */
+.dec1 {
+    position: fixed;
+    width: 400px;
+    height: 170px;
+    right: -100px;
+    top: -45px;
+
+    z-index: 11;
+    background: #10AC1F;
+    transform: rotate(6.2deg);
+}
+
+.dec2 {
+    position: fixed;
+    width: 340px;
+    height: 140px;
+    right: -100px;
+    top: 55px;
+    
+    z-index: 10;
+    background: #008F0E;
+    transform: rotate(21.6deg);
+}
+
+/* dekorasjoner bunn venstre */
+
+.dec3 {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    bottom: -50px;
+    
+    z-index: 11;
+    background: #008F0E;
+    transform: rotate(21.6deg);
+}
+
+.dec4 {
+    position: fixed;
+    width: 175px;
+    height: 280px;
+    left: -15px;
+    bottom: -10px;
+    
+    z-index: 10;
+    background: #10AC1F;
+    transform: rotate(6.2deg);
+}
