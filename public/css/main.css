@@ -1,3 +1,10 @@
+/* VARIABLER ----------------------------------------------------------- */
+:root {
+    --bakgrunn: #fcf5e5
+}
+
+/* DEKORASJONER --------------------------------------------------------------- */
+
 /* dekorasjoner top høyre */
 .dec1 {
     position: fixed;
@@ -10,7 +17,6 @@
     background: #10AC1F;
     transform: rotate(6.2deg);
 }
-
 .dec2 {
     position: fixed;
     width: 340px;
@@ -24,7 +30,6 @@
 }
 
 /* dekorasjoner bunn venstre */
-
 .dec3 {
     position: fixed;
     width: 200px;
@@ -36,7 +41,6 @@
     background: #008F0E;
     transform: rotate(21.6deg);
 }
-
 .dec4 {
     position: fixed;
     width: 175px;
@@ -47,4 +51,31 @@
     z-index: 10;
     background: #10AC1F;
     transform: rotate(6.2deg);
+}
+
+/* NAVBAR ----------------------------------------------------------- */
+.navn {
+    display: inline-block;
+}
+
+/* lenker */
+.navLinks li, .navLinks {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav {
+    background: var(--bakgrunn);
+    border-bottom: 3px solid black;
+
+    width: 75%;
+    position: fixed;
+    top: 0px;
+    left: 10px;
+}
+
+/* BODY ---------------------------------------------------- */
+
+body {
+    background: var(--bakgrunn);
 }
