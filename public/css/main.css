@@ -3,6 +3,17 @@
     --bakgrunn: #fcf5e5
 }
 
+/* FONTS ---------------------------------------------------------------------------------- */
+@font-face {
+    font-family: 'koho-bold';
+    src: url('/fonts/KoHo-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'koho-semibold';
+    src: url('/fonts/KoHo-SemiBold.ttf');
+}
+
 /* DEKORASJONER --------------------------------------------------------------- */
 
 /* dekorasjoner top høyre */
@@ -22,7 +33,7 @@
     width: 340px;
     height: 140px;
     right: -100px;
-    top: 55px;
+    top: 75px;
     
     z-index: 10;
     background: #008F0E;
@@ -71,7 +82,19 @@ nav {
     width: 75%;
     position: fixed;
     top: 0px;
-    left: 10px;
+    left: 9px;
+}
+
+h1 {
+    font-family: 'koho-bold', fallback, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+nav ul li {
+    font-family: 'koho-semibold', fallback, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 /* BODY ---------------------------------------------------- */
